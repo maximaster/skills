@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Format staged markdown files with prettier
+staged_md=$(git diff --cached --name-only --diff-filter=ACM -- '*.md')
+
+if [ -z "$staged_md" ]; then
+  exit 0
+fi
+
+echo "$staged_md" | xargs prettier --write
+echo "$staged_md" | xargs git add

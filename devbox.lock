@@ -1,0 +1,141 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-02-19T06:30:45Z",
+      "resolved": "github:NixOS/nixpkgs/724cf38d99ba81fbb4a347081db93e2e3a9bc2ae?lastModified=1771482645&narHash=sha256-MpAKyXfJRDTgRU33Hja%2BG%2B3h9ywLAJJNRq4Pjbb4dQs%3D"
+    },
+    "just@latest": {
+      "last_modified": "2026-03-21T07:29:51Z",
+      "resolved": "github:NixOS/nixpkgs/09061f748ee21f68a089cd5d91ec1859cd93d0be#just",
+      "source": "devbox-search",
+      "version": "1.47.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s996hkkay16i9x3lxddnk2w1k8g7jjsj-just-1.47.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/yaqkb8kjjs4v83dv05nnpfbif4h32wrn-just-1.47.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/gv8w77ik2rv18q0fpn4sx0j04wic57jr-just-1.47.1-doc"
+            }
+          ],
+          "store_path": "/nix/store/s996hkkay16i9x3lxddnk2w1k8g7jjsj-just-1.47.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ja4ic84l0kpsz04bynrci0gb7rzz4y86-just-1.47.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/azi43mnby86sl4jjlsc6p8dsc1da87vd-just-1.47.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/rhbkpmcadppj6ym7zhqib9pxc3xpmi50-just-1.47.1-doc"
+            }
+          ],
+          "store_path": "/nix/store/ja4ic84l0kpsz04bynrci0gb7rzz4y86-just-1.47.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ivnh9iakr271pp54057516han8fi4plk-just-1.47.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/6p8aiph70bghwp30k9rl04v5pc5kf6jb-just-1.47.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/cpgs52mfds0gwnrklx58r0rschzcfc3b-just-1.47.1-doc"
+            }
+          ],
+          "store_path": "/nix/store/ivnh9iakr271pp54057516han8fi4plk-just-1.47.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rqxlmzfp42kad0n04fcikhyi17jklabl-just-1.47.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/6a4vlvxbv3q1qan90gd3l77rids2iz94-just-1.47.1-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/nr60vgkxq82nm5j9mdqmwkqnjp4bns1r-just-1.47.1-doc"
+            }
+          ],
+          "store_path": "/nix/store/rqxlmzfp42kad0n04fcikhyi17jklabl-just-1.47.1"
+        }
+      }
+    },
+    "prettier@3": {
+      "last_modified": "2026-03-21T07:29:51Z",
+      "resolved": "github:NixOS/nixpkgs/09061f748ee21f68a089cd5d91ec1859cd93d0be#prettier",
+      "source": "devbox-search",
+      "version": "3.6.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r48azz4l39w96zn152ybpcqxpkqpziz8-prettier-3.6.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r48azz4l39w96zn152ybpcqxpkqpziz8-prettier-3.6.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7vz0hyz8ysq4759y6mn931rx1zvn56hc-prettier-3.6.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7vz0hyz8ysq4759y6mn931rx1zvn56hc-prettier-3.6.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ynj49sr067m60y1v7vs31k2iqc7n894a-prettier-3.6.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ynj49sr067m60y1v7vs31k2iqc7n894a-prettier-3.6.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/afhc5ydqajy6c848ylslxgxfqqi4c7mf-prettier-3.6.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/afhc5ydqajy6c848ylslxgxfqqi4c7mf-prettier-3.6.2"
+        }
+      }
+    }
+  }
+}
