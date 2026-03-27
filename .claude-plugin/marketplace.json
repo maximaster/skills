@@ -1,0 +1,19 @@
+{
+  "name": "maximaster-skills",
+  "owner": {
+    "name": "Maxim Lavrinenko",
+    "email": "maxim.lavrinenko@gmail.com"
+  },
+  "metadata": {
+    "description": "Reusable AI-agent skills for Claude Code",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "chronic",
+      "source": "./plugins/chronic",
+      "description": "Manage chronic wrapper for suppressing noisy command output. Silent on success, verbose on failure."
+    }
+  ]
+}

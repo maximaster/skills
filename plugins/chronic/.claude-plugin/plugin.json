@@ -1,0 +1,10 @@
+{
+  "name": "chronic",
+  "version": "1.0.0",
+  "description": "Manage chronic wrapper for suppressing noisy command output. Silent on success, verbose on failure.",
+  "author": {
+    "name": "Maxim Lavrinenko",
+    "email": "maxim.lavrinenko@gmail.com"
+  },
+  "skills": "./skills"
+}
