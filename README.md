@@ -9,7 +9,7 @@ A collection of reusable AI-agent [skills](https://agentskills.io/specification)
 Add the marketplace, then install plugins:
 
 ```bash
-claude plugin marketplace add --source github --repo maximaster/skills
+claude plugin marketplace add https://github.com/maximaster/skills
 claude plugin install chronic
 ```
 
